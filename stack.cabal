@@ -1,0 +1,13 @@
+name:                stack
+version:             0.1.0.0
+synopsis:            Build *every* stack package for offline use.
+maintainer:          rlpowell@digitalkingdom.org
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+executable stack
+  main-is:          stack.hs
+  ghc-options:      -threaded
+  default-language: Haskell2010
+  build-depends:    PACKAGES

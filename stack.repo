@@ -1,0 +1,6 @@
+[fpco]
+name=FP Complete packages
+baseurl=http://download.fpcomplete.com/fedora/23
+enabled=1
+gpgcheck=1
+gpgkey=https://s3.amazonaws.com/download.fpcomplete.com/fedora/RPM-GPG-KEY-FPCO
